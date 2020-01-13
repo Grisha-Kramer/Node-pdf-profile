@@ -43,7 +43,8 @@ inquirer
        console.log(userInfo, res.data)
 
        const html = `<html>
-       <p>HOORAY</p>
+       <body style = "background-color: ${colorPref}">
+       
        <p> Name: ${userInfo.name}</p>
        <p> bio: ${userInfo.bio}</p>
        <img class = "avatar"
@@ -55,6 +56,7 @@ inquirer
        <p> following: ${userInfo.following} </p>
        <p> blog: ${userInfo.blog} </p>
        <p> stars: ${userInfo.stars} </p>
+       </body>
        </html>`
        const options = {
            "orientation": "portrait",
