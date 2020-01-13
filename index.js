@@ -44,11 +44,10 @@ inquirer
 
        const html = `<html>
        <body style = "background-color: ${colorPref}">
-       
+       <img class = "center"
+       src =  "${userInfo.image}">
        <p> Name: ${userInfo.name}</p>
        <p> bio: ${userInfo.bio}</p>
-       <img class = "avatar"
-       src =  "${userInfo.image}">
        <p> location: ${userInfo.location} </p>
        <p> github: ${userInfo.github}</p>
        <p> repos: ${userInfo.repos}</p>
