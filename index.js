@@ -45,16 +45,18 @@ inquirer
 
        const starUrl = `https://api.github.com/users/${username}/starred`;
        axios.get(starUrl).then(res => {
-         let starCount = {
-           stars: res.data.starred
-         }
-         console.log(starCount)
-         console.log(res.data)
+        //  let starCount = {
+        //    stars: res.data.starred
+        //  }
+        //  console.log(starCount)
+        //  console.log(res.data)
          const starz = res.data.length
-         console.log(res.data.length)
+        //  console.log(res.data.length)
+
+         console.log(colorPref, "colorPref")
 
           const html = `<html>
-          <styleop = "background-color: ${colorPref}">
+          <body style = "background-color: ${colorPref}">
           <img class = "center"
           src =  "${userInfo.image}">
           <p> Name: ${userInfo.name}</p>
@@ -65,7 +67,7 @@ inquirer
           <p> followers: ${userInfo.followers} </p>
           <p> following: ${userInfo.following} </p>
           <p> blog: ${userInfo.blog} </p>
-          <p> stars: ${res.data.length} </p>
+          <p> stars: ${starz} </p>
           </body>
 
           </html>`
