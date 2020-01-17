@@ -4,7 +4,7 @@ const pdf = require("html-pdf");
 const fs = require('fs');
 //const generateHTML = require(".generateHTML")
 
-
+ 
 inquirer
     .prompt ([
         {
@@ -13,10 +13,10 @@ inquirer
             name: "username"
     },
     {
-        type: "list",
-        message: "Which of these colors do you like the best?",
-        name: "colorPref",
-        choices: ["purple", "orange", "blue", "grey"]
+        type: "input",
+        message: "What is your favorite color?",
+        name: "colorPref"
+    
 }]  )
 .then(replies => {
     console.log (replies)
@@ -143,3 +143,5 @@ inquirer
     })
     
 })
+
+
