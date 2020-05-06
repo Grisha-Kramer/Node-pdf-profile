@@ -1,8 +1,21 @@
-# Node-pdf-profile
-Homework 7
+# Node PDF Profile
 
 
-It took a while to find the best npm module, and I had to delete and reinstall them once because of install issues.
+A node.js application designed to display user information on a PDF
 
-As of yet I can't get the stars to display correctly, it seems like I would have to build a whole section just to deal with that.
 
+
+| Technologies used:                                                                        |
+| ----------------------------------------------------------------------------------------- |
+|  Node.js, JavaScript, HTML, CSS
+
+
+
+## License
+
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
